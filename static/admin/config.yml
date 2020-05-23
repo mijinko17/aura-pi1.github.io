@@ -1,3 +1,4 @@
+#ここを弄ると新たな欄を作成できるのでは？
 backend:
   name: git-gateway
   branch: master
@@ -27,6 +28,12 @@ collections:
         name: "interests"
         required: false
         widget: "list"
+
+      - label: "Subinterests (shown in About widget)"
+        name: "subinterests"
+        required: false
+        widget: "list"
+
       - label: Social links
         name: social
         required: false
@@ -63,16 +70,10 @@ collections:
             fields:
               - {label: Course, name: course, widget: string, required: true}
               - {label: Institution, name: institution, widget: string, required: true}
+              #ここにadvisorを追加してみたが反映されない。
+              - {label: Advisor, name: advisor, widget: string, required: true}
               - {label: Year, name: year, widget: number, valueType: int, required: false}
       - {label: "Email (to use a Gravatar.com avatar)", name: "email", widget: "string", required: false}
-      - label: "Super user (is this the primary site user?)"
-        name: "superuser"
-        widget: "boolean"
-        default: false
-      - label: "User groups (only for organization websites)"
-        name: "user_groups"
-        required: false
-        widget: "list"
   - name: posts
     label: Posts
     label_singular: Post

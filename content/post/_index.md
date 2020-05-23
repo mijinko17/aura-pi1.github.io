@@ -12,3 +12,5 @@ header:
   caption: ""
   image: ""
 ---
+
+主に日記を掲載します。

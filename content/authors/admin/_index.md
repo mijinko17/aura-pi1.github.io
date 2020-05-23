@@ -1,6 +1,6 @@
 ---
-# Display name
-title: Nelson Bighetti
+# 表示される名前
+title: Takashi Aura
 
 # Username (this should match the folder name)
 authors:
@@ -9,51 +9,57 @@ authors:
 # Is this the primary user of the site?
 superuser: true
 
-# Role/position
-role: Professor of Artificial Intelligence
+# ポジション
+role: Doctoral student
 
-# Organizations/Affiliations
+# 所属
 organizations:
-- name: Stanford University
+- name: Kyoto university
   url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: 宜しくお願いします！
+
 
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Drinfeld Modules
+- Inverse Galois Theory
+- Anabelian Geometry
+
+#ここに趣味を書きたい
+subinterests:
+- Competitive Programming (C++)
+- Hiking and Workout
+- Reading mangas and novels
 
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: Doctoral course in Mathematical Science
+    institution: Reserch Institute for Mathematical Sciences (RIMS), Kyoto university
+    advisor: Akio Tamagawa
+    year: 2020~
+  - course: MSc in Mathematical Science
+    institution: Reserch Institute for Mathematical Sciences (RIMS), Kyoto university
+    advisor: Akio Tamagawa
+    year: 2020
+  - course: BSc in Mathematical Science
+    institution: Keio university
+    advisor: Kenichi Bannai
+    year: 2018
 
-# Social/Academic Networking
-# For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
-#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "#contact" for contact widget.
+# SNSなど他のサイトへのリンクを張る
+
 social:
-- icon: envelope
-  icon_pack: fas
-  link: '#contact'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-- icon: github
-  icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://twitter.com/aura_pi
+
+# githubのリンク
+#- icon: github
+#  icon_pack: fab
+#  link: https://github.com/gcushen
+
+# CVを張る
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -61,15 +67,8 @@ social:
 #   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ""
+email: "ishii@kurims.kyoto-u.ac.jp"
 
-# Organizational groups that you belong to (for People widget)
-#   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
-- Researchers
-- Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+京都大学大学院理学研究科数学・数理解析専攻数理解析系の博士後期課程に在学している大学院生です。
