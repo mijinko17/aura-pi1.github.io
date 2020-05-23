@@ -1,0 +1,1 @@
+必要になった際にpublication.mdとtalk.mdをexamplesiteから持ってくること。
